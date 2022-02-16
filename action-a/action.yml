@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet Pan0ptics"
+author: "neerobig@gmail.com"
+
+inputs:
+  MY_NAME:
+    description: "greeting myself"
+    required: true
+    default: "Pan0ptics"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
